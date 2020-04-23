@@ -11,7 +11,7 @@
     "socials":
     [{
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906"
+        "url":"http://facebook.com/"
       },
       {
         "name":"twitter",
@@ -19,28 +19,28 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/"
+        "url":"https://www.linkedin.com/"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx"
+        "url":"http://github.com/"
       },
       {
         "name":"web",
-        "url":"http://github.com/tbakerx"
+        "url":"http://github.com/"
       }
     ],
     "about":{
         "profilePic":"/profilepic.png",
         "description":"Write a description about yourself. Your can write it in **Markdown**.",
-        "email": "fabien.cellard@gmail.com",
-        "phoneNumber": "418-376-8961",
+        "email": "john.doe@example.com",
+        "phoneNumber": "000-000-0000",
         "address":{
-            "street":"78-106 rue Dubé",
+            "street":"555 Boulevard de l'Université,",
             "city":"Chicoutimi",
             "state":"QC",
             "country":"CANADA",
-            "zip": "G7H2V2"
+            "zip": "G7H2B1"
           }
     },
     "projects":[
@@ -55,7 +55,7 @@
         },
         {
             "title": "Project 2",
-            "subtitle": "A software development project",
+            "subtitle": "Another software development project",
             "smallDescription": "Small description of the project",
             "imageUrl":"https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
             "content":{
@@ -66,24 +66,24 @@
     "resume":{
         "education":[
             {
-              "school":"Université du Québec à Chicoutimi",
-              "degree":"Computer Science Master - Video Games specialization",
+              "school":"University X",
+              "degree":"Master Degree",
               "dates":"September 2019 - Today",
               "description":""
             },
             {
-              "school":"Polytech Lyon",
-              "degree":"Computer Science Engineering Degree",
-              "dates":"September 2015 - Today",
+              "school":"School Y",
+              "degree":"Bachelor Degree",
+              "dates":"September 2015 - August 2019",
               "description":""
             }
         ],
         "works":[
             {
-                "company":"Travelys / SpeedMedia",
-                "title":"Intern Developper",
+                "company":"Company",
+                "title":"Developper",
                 "dates":"September 2018 - February 2019",
-                "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "description":"What I did at this company."
             }
         ],
         "skills":[
@@ -96,6 +96,16 @@
               "name":"Unity",
               "level":"70%",
               "icon":"unity"
+            },
+            {
+              "name":"C++",
+              "level":"70%",
+              "icon":"language-cpp"
+            },
+            {
+              "name":"",
+              "level":"70%",
+              "icon":"language-csharp"
             }
         ]
     }
