@@ -5,7 +5,8 @@
     "footer":"© 2020 Cellard Fabien",
     "main":{
         "title":"John Doe",
-        "subtitle":"Junior Developper"
+        "subtitle":"Junior Developper",
+        "bgUrl":"/background.jpg"
     },
     "socials":
     [{
