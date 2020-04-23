@@ -1,0 +1,101 @@
+{
+    "title":"My portfolio",
+    "name":"John Doe",
+    "resumeUrl":"https://greyhopes.github.io/portfolio/resume.pdf",
+    "footer":"© 2020 Cellard Fabien",
+    "main":{
+        "title":"John Doe",
+        "subtitle":"Junior Developper"
+    },
+    "socials":
+    [{
+        "name":"facebook",
+        "url":"http://facebook.com/tim.baker.906"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/tbakerx"
+      },
+      {
+        "name":"web",
+        "url":"http://github.com/tbakerx"
+      }
+    ],
+    "about":{
+        "profilePic":"/profilepic.png",
+        "description":"Write a description about yourself. Your can write it in **Markdown**.",
+        "email": "fabien.cellard@gmail.com",
+        "phoneNumber": "418-376-8961",
+        "address":{
+            "street":"78-106 rue Dubé",
+            "city":"Chicoutimi",
+            "state":"QC",
+            "country":"CANADA",
+            "zip": "G7H2V2"
+          }
+    },
+    "projects":[
+        {
+            "title": "Project 1",
+            "subtitle": "A software development project",
+            "smallDescription": "Small description of the project",
+            "imageUrl":"/background.jpg",
+            "content":{
+                "mdUrl":"project1.md"
+            }
+        },
+        {
+            "title": "Project 2",
+            "subtitle": "A software development project",
+            "smallDescription": "Small description of the project",
+            "imageUrl":"https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+            "content":{
+                "text":"This is my project"
+            }
+        }
+    ],
+    "resume":{
+        "education":[
+            {
+              "school":"Université du Québec à Chicoutimi",
+              "degree":"Computer Science Master - Video Games specialization",
+              "dates":"September 2019 - Today",
+              "description":""
+            },
+            {
+              "school":"Polytech Lyon",
+              "degree":"Computer Science Engineering Degree",
+              "dates":"September 2015 - Today",
+              "description":""
+            }
+        ],
+        "works":[
+            {
+                "company":"Travelys / SpeedMedia",
+                "title":"Intern Developper",
+                "dates":"September 2018 - February 2019",
+                "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+            }
+        ],
+        "skills":[
+            {
+              "name":"Unreal Engine",
+              "level":"80%",
+              "icon":"unreal"
+            },
+            {
+              "name":"Unity",
+              "level":"70%",
+              "icon":"unity"
+            }
+        ]
+    }
+}
