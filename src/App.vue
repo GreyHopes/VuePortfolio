@@ -142,7 +142,7 @@ import {getImageURL} from './plugins/utils'
     computed:
     {
       isLargeViewport() {
-        return this.$vuetify.breakpoint.name == 'lg';
+        return this.$vuetify.breakpoint.name == 'lg' || this.$vuetify.breakpoint.name == 'xl';
       },
       mini()
       {
