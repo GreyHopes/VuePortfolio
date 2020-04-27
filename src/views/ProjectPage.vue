@@ -42,7 +42,7 @@ export default {
         onSuccess(response){
             this.isMarkdown = true;
             //Replace the local image flag in the Markdown with the local path
-            this.content = response.data.replace("{{LOCAL_IMAGE_DIR}}",process.env.BASE_URL+'images');
+            this.content = response.data.replace(/{{LOCAL_IMAGE_DIR}}/g,process.env.BASE_URL+'images');
         },
         onFail(error){
             console.error(error)
