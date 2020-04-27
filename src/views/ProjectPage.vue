@@ -130,7 +130,7 @@ export default {
 .content-row{
     margin:2rem;
    
-    img{
+    img,iframe{
         max-width: 50%;
         display: block;
         margin: auto;
