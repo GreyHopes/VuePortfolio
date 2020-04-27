@@ -3,6 +3,7 @@
     "name":"John Doe",
     "resumeUrl":"https://greyhopes.github.io/portfolio/resume.pdf",
     "footer":"© 2020 Cellard Fabien",
+    "profilePic":"/profilepic.png",
     "main":{
         "title":"John Doe",
         "subtitle":"Junior Developper",
@@ -31,7 +32,6 @@
       }
     ],
     "about":{
-        "profilePic":"/profilepic.png",
         "description":"Write a description about yourself. Your can write it in **Markdown**.",
         "email": "john.doe@example.com",
         "phoneNumber": "000-000-0000",
