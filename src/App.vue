@@ -151,7 +151,7 @@ import {getImageURL} from './plugins/utils'
     },
     created () {
       this.$vuetify.theme.dark = true;
-      this.drawer = this.isLargeViewport;
+      this.drawer = false;
 
       //If the data is in the store retrieves it 
       if(this.$store.state.portfolio)
