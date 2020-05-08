@@ -69,6 +69,7 @@ export default {
   {
     font-size: 5rem!important; //add to overwrite vuetify style
     line-height: 5rem;
+    text-align: center;
   }
 
   .social-button

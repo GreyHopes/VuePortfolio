@@ -129,11 +129,21 @@ export default {
 }
 .content-row{
     margin:2rem;
-   
-    img,iframe{
-        max-width: 50%;
-        display: block;
-        margin: auto;
+   @media(min-width: 992px)
+    {
+        img,iframe{
+            max-width: 50%;
+            display: block;
+            margin: auto;
+        }
+    }
+    @media(max-width: 991px)
+    {
+        img,iframe{
+            max-width: 100%;
+            display: block;
+            margin: auto;
+        }
     }
 }
 @media(min-width: 992px)
@@ -143,4 +153,5 @@ export default {
         margin-top: 2rem;;
     }
 }
+
 </style>

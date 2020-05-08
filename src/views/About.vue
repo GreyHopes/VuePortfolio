@@ -129,6 +129,7 @@ export default {
   {
     display: block;
     margin: auto;
+    border-radius: 100%
   }
 }
 </style>
