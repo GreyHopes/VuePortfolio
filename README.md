@@ -6,6 +6,28 @@
 
 A customizable portfolio template made with VueJS.
 
+## Table of content
+
+<!-- TOC -->
+- [:tada: Getting Started](#tada-getting-started)
+  - [:wrench:Prerequisites](#wrenchprerequisites)
+  - [:construction: Installing](#construction-installing)
+- [:floppy_disk: Add your informations](#floppy_disk-add-your-informations)
+  - [:mag_right: Main informations](#mag_right-main-informations)
+  - [:wave: Socials](#wave-socials)
+  - [:mailbox: About](#mailbox-about)
+  - [:books: Resume](#books-resume)
+  - [:trophy: Projects](#trophy-projects)
+- [:rocket: Deployment](#rocket-deployment)
+- [:page_with_curl: Deploying on a github page](#page_with_curl-deploying-on-a-github-page)
+- [:hammer:Built With](#hammerbuilt-with)
+- [:raising_hand: Contributing](#raising_hand-contributing)
+- [:black_nib: Authors](#black_nib-authors)
+- [:clipboard: License](#clipboard-license)
+- [:pray: Acknowledgments](#pray-acknowledgments)
+
+<!-- TOC END -->
+
 ## :tada: Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -41,6 +63,146 @@ npm run serve
 ```
 
 ## :floppy_disk: Add your informations 
+
+To modify the information displayed on your portfolio you just have to modify the informations in the `portfolioData.json` file.
+
+### :mag_right: Main informations
+
+These are the main informations of your portfolio :
+
+```json
+{
+  "title":"My portfolio",
+  "name":"John Doe",
+  "resumeUrl":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+  "footer":"© 2020 Me",
+  "profilePic":"/profilepic.png", // <= Path from public/images you can use a distant path instead
+  "main":{
+      "title":"John Doe",
+      "subtitle":"Junior Developper",
+      "bgUrl":"/background.jpg" // <= Same 
+  }
+}
+```
+
+### :wave: Socials
+
+These are your social links :
+
+:warning: *The `name` field is used to determine which icon to use, check the [material design icons site](https://materialdesignicons.com/) for reference.*
+
+```json
+{
+  "socials":
+  [{
+      "name":"facebook",
+      "url":"http://facebook.com/"
+    },
+    {
+      "name":"twitter",
+      "url":"http://twitter.com"
+    }
+}
+```
+
+### :mailbox: About
+
+This section will fil the informations on the `About` page.
+
+```json
+{
+  "about":{
+        "description":"Write a description about yourself. Your can write it in **Markdown** for styling.",
+        "email": "john.doe@example.com",
+        "phoneNumber": "000-000-0000",
+        "address":{
+          "street":"555 Boulevard de l'Université,",
+          "city":"Chicoutimi",
+          "state":"QC",
+          "country":"CANADA",
+          "zip": "G7H2B1"
+        }
+    },
+}
+```
+
+### :books: Resume
+
+The resume informations are divided in 3 parts.
+
+The education and past works are pretty similar and self explanatory. 
+
+```json
+{
+  "education":[
+    {
+      "school":"University X",
+      "degree":"Master Degree",
+      "dates":"September 2019 - Today",
+      "description":""
+    }
+  ],
+  "works":[
+    {
+        "company":"Company",
+        "title":"Developper",
+        "dates":"September 2018 - February 2019",
+        "description":"What I did at this company."
+    }
+  ]
+}
+```
+
+And here is the part that fills your skills and ads the progression bar :
+
+:warning: *Just as said previously, I use Material Design Icons for the icons please check their [site]((https://materialdesignicons.com/)) for reference.*
+
+```json
+{
+"skills":[
+  {
+    "name":"Unreal Engine",
+    "level":"80%",
+    "icon":"unreal"
+  },
+  {
+    "name":"", //<= I choosed not to use the name to avoid clutter with the icon
+    "level":"70%",
+    "icon":"language-cpp"
+  },
+]
+```
+
+### :trophy: Projects 
+
+These informations will be used to fill in the `Projects` page and each individual project page :
+
+```json
+{
+  "projects":[
+    {
+        "title": "Project 1",
+        "subtitle": "A software development project",
+        "smallDescription": "Small description of the project",
+        "imageUrl":"/background.jpg", //<= local path from public/images
+
+        //The content field is used for the project page 
+        "content":{
+            "mdUrl":"project1.md" // <= Path to the markdown file from public/projects/markdown/
+        }
+    },
+    {
+        "title": "Project 2",
+        "subtitle": "Another software development project",
+        "smallDescription": "Small description of the project",
+        "imageUrl":"https://cdn.vuetifyjs.com/images/cards/sunshine.jpg", //<= distant image
+        "content":{ 
+            "text":"This is my project" // A simple text description
+        }
+    }
+  ]
+}
+```
 
 ## :rocket: Deployment
 
