@@ -70,7 +70,7 @@ To modify the information displayed on your portfolio you just have to modify th
 
 These are the main informations of your portfolio :
 
-```json
+```jsonc
 {
   "title":"My portfolio",
   "name":"John Doe",
@@ -91,7 +91,7 @@ These are your social links :
 
 :warning: *The `name` field is used to determine which icon to use, check the [material design icons site](https://materialdesignicons.com/) for reference.*
 
-```json
+```jsonc
 {
   "socials":
   [{
@@ -109,7 +109,7 @@ These are your social links :
 
 This section will fil the informations on the `About` page.
 
-```json
+```jsonc
 {
   "about":{
         "description":"Write a description about yourself. Your can write it in **Markdown** for styling.",
@@ -132,7 +132,7 @@ The resume informations are divided in 3 parts.
 
 The education and past works are pretty similar and self explanatory. 
 
-```json
+```jsonc
 {
   "education":[
     {
@@ -157,7 +157,7 @@ And here is the part that fills your skills and ads the progression bar :
 
 :warning: *Just as said previously, I use Material Design Icons for the icons please check their [site]((https://materialdesignicons.com/)) for reference.*
 
-```json
+```jsonc
 {
 "skills":[
   {
@@ -177,7 +177,7 @@ And here is the part that fills your skills and ads the progression bar :
 
 These informations will be used to fill in the `Projects` page and each individual project page :
 
-```json
+```jsonc
 {
   "projects":[
     {
