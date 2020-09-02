@@ -11,7 +11,7 @@ A customizable portfolio template made with VueJS.
 - [:tada: Getting Started](#tada-getting-started)
   - [:wrench:Prerequisites](#wrenchprerequisites)
   - [:construction: Installing](#construction-installing)
-- [:floppy_disk: Add your informations](#floppy_disk-add-your-informations)
+- [:floppy_disk: Adding your informations](#floppy_disk-add-your-informations)
   - [:mag_right: Main informations](#mag_right-main-informations)
   - [:wave: Socials](#wave-socials)
   - [:mailbox: About](#mailbox-about)
@@ -61,7 +61,7 @@ Or you can do it by command :
 npm run serve
 ```
 
-## :floppy_disk: Add your informations 
+## :floppy_disk: Adding your informations 
 
 To modify the information displayed on your portfolio you just have to modify the informations in the `portfolioData.json` file.
 
